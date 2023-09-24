@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         self.configLittleSquares()
     }
     
-    
     func configBigSquareView() {
         self.view.addSubview(self.bigSquareView)
         self.bigSquareView.backgroundColor = .purple
@@ -79,8 +78,5 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
-
 }
 
